@@ -1,0 +1,38 @@
+#searchInp{
+    width: 500px;
+    outline: none;
+}
+.emptyData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#eraseIcon{
+    position: relative;
+    top: 3px;
+    right: 37px;
+    cursor: pointer;
+}
+
+.searchIcon{
+    margin-left: 0px;
+    background-color: #5379F6;
+    cursor: pointer;
+}
+
+#sortIcon{
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.displayHeading{
+    margin-bottom: 20px;
+}
+.details-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: green; */
+}
+

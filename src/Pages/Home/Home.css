@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+  margin: 0;
+  font-family: "Elms Sans", sans-serif;
+  background: #f5f6fa;
+}
+
+.app-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: #F6F6F8;
+  font-family: "Elms Sans", sans-serif;
+  /* padding: 40px; */
+}
+
+.form-section {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex: 1;
+  margin-top: 25px;
+}
+.display-section{
+   background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex: 1;
+  margin-top: 25px;
+  /* width: 500px;
+  margin-right: 30px; */
+  height: 828px;
+  margin-right: 30px;
+  overflow-y: scroll;
+  /* overflow: visible !important; */
+}
+.form-section{
+  height: 830px;
+}
+
+.addIcon{
+  color:#5379F6;
+  margin-top: 4px;
+}
+.Heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.expenceHeading{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.formHeading{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-weight: 600;
+  color: white;
+}
+
+
+
+
+
+.btn-delete {
+  background-color: #ff0019;
+}
+
+.details-container {
+  /* width: 400px; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}

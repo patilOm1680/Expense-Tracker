@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+nav {
+position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 300px;
+  background-color: #ffffff;
+  border-right: 1px solid rgb(243, 239, 239);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Elms Sans", sans-serif;
+}
+.navLink{
+  /* list-style-type: none; */
+  text-decoration: none;
+}
+
+/* span:active{
+  background-color: red;
+  color: red;
+} */
+
+.heading {
+  padding-top: 20px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.appLogo {
+  margin-left: 27px;
+  height: 50px;
+  object-fit: cover;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 830px;
+  /* overflow: scroll; */
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  font-size: 20px;
+}
+
+span {
+  width: 87%;
+  display: flex;
+  gap: 10px;
+  padding-left: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #e7eefd;
+  color: #5379f6;
+  margin-right: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#addUser {
+  color: rgb(0, 0, 0);
+  background-color: rgb(239, 239, 239);
+}
+
+#addUser:hover {
+  background-color: #e7eefd;
+  color: #487aef;
+}
+
+.settingsIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(239, 239, 239);
+  padding: 8px;
+}

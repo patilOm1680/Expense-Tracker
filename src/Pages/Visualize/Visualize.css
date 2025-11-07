@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.chartContainer, .chartContainer2{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    color: #0d47a1;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.pieContainer, .barChart, .totalIncome{
+    background-color: #E7EEFD;
+    /* height: auto; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+    width: 480px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.savings{
+    background-color: #E7EEFD;
+    /* height: auto; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+    width: 480px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.pieContainer h3{
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #0d47a1;
+  font-size: 1.5rem;
+}
+.pieContainer{
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.barChart h3{
+    color: #0d47a1;
+  font-size: 1.5rem;
+}
+
+.barChart{
+    gap: 30px;
+    width: 580px;
+}
+.pieContainer svg{
+    height: 300px !important;
+    width: 100% !important;
+}
+.pieContainer .recharts-layer{
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+.totalIncome h3{
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    color: #0d47a1;
+  font-size: 1.5rem;
+}
+.savings h3{
+    color: #0d47a1;
+}
+.totalIncome{
+    width: 380px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    position: relative;
+    height: 175px;
+    /* background-image: ("../../assets/imcomeImg.jpg"); */
+    
+}
+
+.totalIncome p , .savings p{
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: rgb(58, 58, 99);
+}
+.IncomeExpense{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.recharts-tooltip-item{
+    display: flex !important;
+    gap: 0px !important;
+    width: 150px !important;
+    padding: 0px !important;
+    overflow: hidden !important;
+}
+.recharts-tooltip-item span{
+    background-color: white;
+    padding: 0px !important;
+    margin: 0px !important;
+    /* width: 20px; */
+}
+/* *{
+    overflow: visible !important;
+} */
+.chartContainer2{
+    margin-top: 15px;
+}
+.lineChartContainer{
+    box-sizing: border-box;
+    background-color: #E7EEFD;
+    /* height: auto; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+    width: 980px;
+    height: 370px;
+    padding: 10px;
+}
+
+.expenseOverview{
+     background-color: #E7EEFD;
+    /* height: auto; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  height: 60px;
+  margin-top: 20px;
+}
+.expenseOverview h2{
+    margin: 0px;
+    color: #0d47a1;
+}
+.headingContent{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    
+}

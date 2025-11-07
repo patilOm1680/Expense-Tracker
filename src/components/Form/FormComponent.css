@@ -1,0 +1,35 @@
+
+.formImage{
+    height: 400px;
+    margin-left: 130px;
+    margin-bottom: 25px;
+}
+.btn-add {
+  background-color: #5379F6;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.DateAndName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.innerDateAndName{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+input{
+    height: 25px;
+    outline: none;
+}
+
+.ExpenceAndDes{
+    margin-top: 10px;
+}
+
+
