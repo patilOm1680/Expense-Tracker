@@ -1,16 +1,52 @@
-# React + Vite
+# 💰 SpendTrack  | Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopeEase is an E-commerce web application built using **React**, **Recharts** . It provides a clean UI, visualize the Income and Expense, Expense management and a modular structure suitable for scaling into a full-featured Expense Tracker Web application.
 
-Currently, two official plugins are available:
+![App Screenshot](./public/AppScreenShots/HomeSS.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Table of Contents
+- [Introduction](#-introduction)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#️-installation)
+- [Screenshots](#screenshots)
+- [License](#-license)
 
-## React Compiler
+## 📝 Introduction
+ShopeEase is designed to Track the income and expense where users can track their expenses and also visualize it using bar graphs, line graphs etc.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- Add/remove the expense
+- Search/Filter/sort the expense
+- Bar,Line graphs to track the expense
+- Track remaining savings
+- Update the expense
+- Data stored into the Localstorage
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🧰 Tech Stack
+- React.js
+- Vanilla CSS
+- Recharts (for graphs)
+
+## ⚙️ Installation
+
+```
+git clone git@github.com:patilOm1680/Expense-Tracker.git
+cd Expense-Tracker
+
+```
+
+## Screenshots
+![App Screenshot](./public/AppScreenShots/SS1.png)
+![App Screenshot](./public/AppScreenShots/SS2.png)
+![App Screenshot](./public/AppScreenShots/SS3.png)
+![App Screenshot](./public/AppScreenShots/SS4.png)
+![App Screenshot](./public/AppScreenShots/SS5.png)
+![App Screenshot](./public/AppScreenShots/SS7.png)
+![App Screenshot](./public/AppScreenShots/SS8.png)
+
+
+## 📄 License
+No license ;
