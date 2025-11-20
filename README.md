@@ -1,5 +1,5 @@
 # 💰 SpendTrack  | Expense Tracker
-
+Demo Link - https://shope-ease-nu.vercel.app/
 ShopeEase is an E-commerce web application built using **React**, **Recharts** . It provides a clean UI, visualize the Income and Expense, Expense management and a modular structure suitable for scaling into a full-featured Expense Tracker Web application.
 
 ![App Screenshot](./public/Screenshots/SS1.png)
