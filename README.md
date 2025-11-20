@@ -35,7 +35,6 @@ ShopeEase is designed to Track the income and expense where users can track thei
 ```
 git clone git@github.com:patilOm1680/Expense-Tracker.git
 
-
 ```
 ```
 cd Expense-Tracker
