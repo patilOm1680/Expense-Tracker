@@ -2,7 +2,7 @@
 
 ShopeEase is an E-commerce web application built using **React**, **Recharts** . It provides a clean UI, visualize the Income and Expense, Expense management and a modular structure suitable for scaling into a full-featured Expense Tracker Web application.
 
-![App Screenshot](./public/AppScreenShots/HomeSS.png)
+![App Screenshot](./public/Screenshots/SS1.png)
 
 ## 📖 Table of Contents
 - [Introduction](#-introduction)
@@ -39,13 +39,8 @@ cd Expense-Tracker
 ```
 
 ## Screenshots
-![App Screenshot](./public/AppScreenShots/SS1.png)
-![App Screenshot](./public/AppScreenShots/SS2.png)
-![App Screenshot](./public/AppScreenShots/SS3.png)
-![App Screenshot](./public/AppScreenShots/SS4.png)
-![App Screenshot](./public/AppScreenShots/SS5.png)
-![App Screenshot](./public/AppScreenShots/SS7.png)
-![App Screenshot](./public/AppScreenShots/SS8.png)
+![App Screenshot](./public/Screenshots/SS1.png)
+![App Screenshot](./public/Screenshots/SS2.png)
 
 
 ## 📄 License
